@@ -73,6 +73,10 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
+nav .fa-bars,
+nav .fa-xmark {
+    display: none;
+}
 
 .header-text {
     margin-top: 20%;
@@ -537,4 +541,5 @@ form .btn2 {
         width: 100%;
         border-bottom: 1px solid #ddd;
     }
+
 }
